@@ -1,3 +1,28 @@
+$white: #fff;
+$black: #000;
+
+$primary: rgb(95, 217, 251);
+$secondary: rgb(233, 74, 147);
+$dark: rgb(32, 35, 42);
+$light: $white;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary":  $secondary,
+  "dark": $dark,
+  "light": $light,
+);
+
+$body-bg: $dark;
+$body-color: $light;
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+
+$font-family-monospace: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+$font-family-base: $font-family-monospace;
+
 @import "~bootstrap/scss/bootstrap";
 
 .App {
@@ -16,18 +41,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
