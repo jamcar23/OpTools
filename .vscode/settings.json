@@ -1,3 +1,12 @@
 {
-    "editor.formatOnSave": true
+    "editor": {
+        "formatOnSave": false,
+        "codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+    },
+    "eslint.options": {
+        "configFile": ".eslintrc.js"
+    },
+    "prettier.configPath": ".prettierrc.js",
 }
