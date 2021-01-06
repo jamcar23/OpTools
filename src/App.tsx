@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import logo from './logo.svg';
 
-function App(): React.ReactNode {
+function App(): React.ReactElement {
   return (
     <div className="App">
       <header className="App-header">
