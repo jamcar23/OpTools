@@ -23,7 +23,10 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto'
 $font-family-monospace: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 $font-family-base: $font-family-monospace;
 
-@import "~bootstrap/scss/bootstrap";
+// Form
+$input-color: $white;
+
+@import "@forevolve/bootstrap-dark/scss/bootstrap-dark";
 
 .App {
   text-align: center;
